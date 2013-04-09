@@ -56,12 +56,8 @@ $autoload['libraries'] = array();
 
 
 /*
-| -------------------------------------------------------------------
-|  Auto-load Helper Files
-| -------------------------------------------------------------------
-| Prototype:
-|
 |	$autoload['helper'] = array('url', 'file');
+|	para no tener que cargar los helpers en el controlador
 */
 
 $autoload['helper'] = array('url');
