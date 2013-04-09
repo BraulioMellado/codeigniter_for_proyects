@@ -13,20 +13,18 @@ body,html{
 	margin:0;
 	height: 450px;
 }
-ul .menu{
+#nav ul{
 	list-style: none;
-}
-.menu{
 	background-color:rgba(49,52,55,.4);
 	height: 40px;
 	margin: 0;
-}
-.menu li{
+}	
+#nav li{
 	display: inline-block;
 	margin: 0;
 	padding: 0;
 }
-.menu a{
+#nav a{
 	color: white;
 	display: block;
 	font-weight: bold;
@@ -34,7 +32,7 @@ ul .menu{
 	padding: 10px 20px;
 	text-decoration: none;
 }
-.menu a:hover{
+#nav a:hover{
 	background-color: rgba(49,52,55,.6);
 }
 h1{
