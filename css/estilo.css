@@ -1,0 +1,46 @@
+/*
+/estilo para la web
+*/
+body,html{
+	background:#f3f3f3;
+	height:100%;
+	margin:0;
+	padding:0;
+	width:100%;
+}
+#header{
+	background-image: url('../imagenes/fondo.png');
+	margin:0;
+	height: 450px;
+}
+ul .menu{
+	list-style: none;
+}
+.menu{
+	background-color:rgba(49,52,55,.4);
+	height: 40px;
+	margin: 0;
+}
+.menu li{
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+.menu a{
+	color: white;
+	display: block;
+	font-weight: bold;
+	height: 20px;
+	padding: 10px 20px;
+	text-decoration: none;
+}
+.menu a:hover{
+	background-color: rgba(49,52,55,.6);
+}
+h1{
+	color:#123456;
+}
+p{
+	color:#000;
+	font-weight:italic;
+}
