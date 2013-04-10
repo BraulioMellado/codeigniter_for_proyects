@@ -8,10 +8,16 @@ body,html{
 	padding:0;
 	width:100%;
 }
+a{
+	text-decoration: none;
+}
 #header{
 	background-image: url('../imagenes/fondo.png');
 	margin:0;
 	height: 450px;
+}
+#header h1{
+	color:#123456;
 }
 #nav ul{
 	list-style: none;
@@ -30,15 +36,60 @@ body,html{
 	font-weight: bold;
 	height: 20px;
 	padding: 10px 20px;
-	text-decoration: none;
 }
 #nav a:hover{
 	background-color: rgba(49,52,55,.6);
 }
-h1{
-	color:#123456;
+#article{
+	border-right: 2px dashed rgba(49,52,55,.4);
+	display: inline-block;
+	margin: 30px 0 0 20px;
+	padding: 0 60px;
+	width: 850px;
 }
-p{
-	color:#000;
-	font-weight:italic;
+.section p{
+	color: rgba(49,52,55,.8);
+	text-align: justify;
+}
+.section a{
+	color: #3b7bbd;
+}
+#aside{
+	display: inline-block;
+	margin: 20px 0 0 0;
+	padding: 0 0 0 40px;
+	position: absolute;
+	float: top;
+	width: 310px;
+}
+#aside h4{
+	color: #1d9f85;
+}
+#aside a{
+	color: #00242b;
+}
+#footer{
+	background-image: url('../imagenes/fondo.png');
+	margin: 0;
+	padding: 0;
+}
+#footer .caja{
+	background-color: rgba(49,52,55,.4);
+	margin: 10px 0 0 0;
+	padding: 10px 150px;
+}
+#footer h3{
+	color: #fff;
+	font-size: 25px;
+	margin: 0 0 3px 0;
+}
+#footer a{
+	color:#fff;
+	margin: 0;
+	padding: 0;
+}
+#footer .clientes{
+	display: inline-block;
+	margin: 0;
+	padding: 15px;
 }
