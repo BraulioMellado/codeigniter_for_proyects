@@ -8,7 +8,7 @@
 			<li><a href="#">Subir</a></li>
 		</ul>
 	</nav>
-	<h1>Mensage desde home</h1>
+	<h1>Nombre de la compañia</h1>
 </header>
 <article id="article">
 	<section class="section">
