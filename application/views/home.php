@@ -1,15 +1,4 @@
 
-<header id="header">
-	<nav id="nav">
-		<ul>
-			<li><a href="#">Home</a></li>
-			<li><a href="#">Imagenes</a></li>
-			<li><a href="#">Videos</a></li>
-			<li><a href="#">Subir</a></li>
-		</ul>
-	</nav>
-	<h1>Nombre de la compañia</h1>
-</header>
 <article id="article">
 	<section class="section">
 		<h2><a href="#">Los bares de striptease y los casinos prohibirán el uso de Google Glass</a></h2>
@@ -66,9 +55,3 @@
 		</p>
 	</section>
 </article>
-<aside id="aside">
-	<h4>Publicidad</h4>
-	<p></p>
-	<h4>Auspiciadores</h4>
-	<p><a href="#">Hosting para novatos</a></p>
-</aside>
