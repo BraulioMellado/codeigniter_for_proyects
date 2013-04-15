@@ -33,6 +33,18 @@ Ahora solo necesitaremos reiniciar Apache.
 
 Ahora podremos podrás especificar el **.htaccess** a nuestro gusto, como [yo lo hice](https://github.com/juliopalro/codeigniter_by_proyects/blob/master/.htaccess).
 
+Pero si estan usando XAMPP en Linux, Windows o MAC entonces deberán de hacer lo siguiente.
+
+Primero abriremos el archivo **httpd.conf** ubicado en **xampp/apache/conf** y deberemos de dejar las siguientes tres lineas como a continuación.
+
+	**Línea 203**	AllowOverride All
+	**Línea 243**	AllowOverride All
+	**Línea 362**	AllowOverride All
+
+Y en caso de que tengamos el proyecto en una sub carpeta a la raíz entonces cambiaremos la tercera línea de **.htaccess** así.
+
+	RewriteRule ^(.*)$ /directorio/index.php/$1 [L]
+
 Creación de la base de datos:
 ====================
 
