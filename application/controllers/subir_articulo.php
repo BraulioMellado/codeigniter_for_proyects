@@ -1,6 +1,13 @@
 <?php
 
 class Subir_articulo extends CI_Controller {
+	
+	function __construct(){
+		parent::__construct();
+		
+		$this->load->helper('form');
+	}
+
 	public function index()
 	{
 		$titulo['titulo']=ucfirst('Subir un articulo');

@@ -1,10 +1,4 @@
 
-<aside id="aside">
-	<h4>Publicidad</h4>
-	<p></p>
-	<h4>Auspiciadores</h4>
-	<p><a href="#">Hosting para novatos</a></p>
-</aside>
 <footer id="footer">
 	<div class="caja">
 		<h3>Nuestros clientes</h3>
