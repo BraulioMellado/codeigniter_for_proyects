@@ -1,14 +1,14 @@
 
 <article id="article">
 	<section class="section">
-		<?= form_open("subir_articulo")?>
+		<?= form_open("recibir")?>
 		<?php
 		$titulo=array(
-			'name'=>'Titulo',
+			'name'=>'titulo',
 			'placeholder'=>'Escriba el nombre del artículo');
 		$articulo=array(
 			'name' => 'articulo',
-			'placeholder'=>'Escriba el nombre del artículo',
+			'placeholder'=>'Escriba el artículo',
 			'rows' => '20',
 			'cols' => '80');
 		?>
@@ -19,6 +19,8 @@
 
 		<br/>
 		<?= form_textarea($articulo)?>
+
+		<?= form_submit('enviar','Subir artículo')?>
 
 		<?= form_close()?>
 
