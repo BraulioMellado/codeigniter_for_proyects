@@ -68,7 +68,7 @@ y crearemos la tabla respectiva.
 	id int(10) not null auto_increment,
 	titulo varchar(100) not null,
 	publi text not null,
-	fech_up int(8) not null,
+	fech_up int(10) not null,
 	tags varchar(40) not null,
 	primary key (id)
 	);
