@@ -17,8 +17,15 @@
 			//obtenemos los resultados
 			$resultado=$this->db->get();
 			
-			//Debolvemos el resultado
-			return $resultado;
+			if ($resultado->num_rows()>0){
+				foreach ($resultado->result() as $valor) {
+					$campos[]=$valor;
+				}
+				return $campos;
+			}
+			else{
+				return false;
+			}
 		}
 		
 		//funcion para buscar muchos articulos
