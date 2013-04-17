@@ -1,6 +1,7 @@
 
 <article id="article">
 	<section class="section">
+		<!--Envia al mismo controlador pero a la funcion guardar -->
 		<?= form_open("subir_articulo/guardar")?>
 		<?php
 		$titulo=array(
