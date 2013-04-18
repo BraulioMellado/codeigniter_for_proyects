@@ -5,6 +5,7 @@ class Ver extends CI_Controller {
 	function __construct()
 	{
 		parent::__construct();
+		$this->load->helper('date');
 		$this->load->model('modelo_db');
 	}
 

@@ -74,12 +74,18 @@ a{
 	width: 50%;
 	padding: 40px 0;
 }
+.section h2,h2 > a{
+	display: inline;
+	color: #3b7bbd;
+}
 .section p{
 	color: rgba(49,52,55,.8);
 	text-align: justify;
 }
-.section a{
-	color: #3b7bbd;
+.section p.fech{
+	display: inline;
+	font-size: 12px;
+	font-weight: bold;
 }
 #footer{
 	background-image: url('../imagenes/fondo.png');
