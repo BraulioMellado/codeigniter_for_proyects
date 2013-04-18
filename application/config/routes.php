@@ -40,6 +40,9 @@
 
 $route['default_controller'] = "home";
 $route['404_override'] = '';
+
+#ruteo para los valores que se envien despues del controlador ver
+#en este primer caso el id del articulo
 $route['ver/(:num)']='ver';
 
 
