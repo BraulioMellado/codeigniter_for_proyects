@@ -11,7 +11,7 @@ class Ver extends CI_Controller {
 
 	public function index()
 	{
-		$id=1;
+		$id=$this->uri->segment(2);
 		$dato['articulo']=$this->modelo_db->buscar_articulo($id);
 
 		$titulo['titulo']=ucfirst('ver articulo');

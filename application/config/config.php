@@ -4,7 +4,7 @@
 |Para poder usar url relativas se debe de tener en cuenta
 /esta configuracion
 */
-$config['base_url']	= 'http://localhost/codeigniter_by_proyects/';
+$config['base_url']	= 'http://localhost/codeigniter_by_proyects';
 
 /*
 |--------------------------------------------------------------------------
@@ -34,7 +34,7 @@ $config['index_page'] = '';
 | 'ORIG_PATH_INFO'	Uses the ORIG_PATH_INFO
 |
 */
-$config['uri_protocol']	= 'QUERY_STRING';
+$config['uri_protocol']	= 'AUTO';
 
 /*
 |--------------------------------------------------------------------------
