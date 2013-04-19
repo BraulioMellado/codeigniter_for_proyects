@@ -11,11 +11,19 @@ class Ver extends CI_Controller {
 
 	public function index()
 	{
-		$id=$this->uri->segment(2);
-		$dato['articulo']=$this->modelo_db->buscar_articulo($id);
+		//coger el nombre del articulo
+		$titulo_url=$this->uri->segment(2);
 
-		$titulo['titulo']=ucfirst('ver articulo');
+		//enviar a consulta
+		$dato['articulo']=$this->modelo_db->buscar_articulo($titulo_url);
+		
+		//Designando el titulo de pagina
+		foreach ($dato['articulo'] as $valor)
+		{
+			$titulo['titulo']=$valor->titulo;
+		}
 
+		//cargando los views
 		$this->load->view('layout/head',$titulo);
 		$this->load->view('ver',$dato);
 		$this->load->view('layout/footer');

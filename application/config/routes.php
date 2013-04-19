@@ -41,9 +41,9 @@
 $route['default_controller'] = "home";
 $route['404_override'] = '';
 
-#ruteo para los valores que se envien despues del controlador ver
-#en este primer caso el id del articulo
-$route['ver/(:num)']='ver';
+//ruteo para los valores que se envien despues del controlador ver
+//para este caso el titulo del articulo
+$route['ver/(:any)']='ver';
 
 
 /* End of file routes.php */

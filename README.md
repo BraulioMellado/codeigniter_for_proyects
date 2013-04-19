@@ -70,6 +70,7 @@ y crearemos la tabla respectiva.
 	publi text not null,
 	fech_up int(10) not null,
 	tags varchar(40) not null,
+	titulo_url varchar(100) not null,
 	primary key (id)
 	);
 
