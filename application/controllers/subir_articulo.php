@@ -28,8 +28,8 @@ class Subir_articulo extends CI_Controller {
 		$datos['fech_up']=time();
 		$datos['tags']=$this->input->post('tags');
 
-		$reemplazar	=	array("á","é","í","ó","ú"," ",",",":",".");
-		$por	=	array("a","e","i","o","u","-","");
+		$reemplazar	=	array("á","é","í","ó","ú","-"," ",",",":",".","?","¿","#","!","¡");
+		$por	=		array("a","e","i","o","u","", "-","");
 	
 		$datos['titulo_url']=str_replace($reemplazar,$por,
 			strtolower(trim($this->input->post('titulo'))));

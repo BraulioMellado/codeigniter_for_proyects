@@ -32,6 +32,24 @@
 		//funcion para buscar muchos articulos
 		public function buscar_articulos()
 		{
+			//buscara los 5 ultimos articulos en forma descendente
+			//deauerdo a su "id"
+			$this->db->select('titulo,publi,fech_up,tags,titulo_url');
+			$this->db->from('publicacion');
+			$this->db->order_by('id','desc');
+			$this->db->limit(5);
+			$resultados=$this->db->get();
+
+			if ($resultados->num_rows()>0)
+			{
+				foreach ($resultados->result() as $valor) {
+					$campos[]=$valor;
+				}
+				return $campos;
+			}
+			else{
+				return false;
+			}
 		}
 		
 		//funcion para subir datos de un articulos
