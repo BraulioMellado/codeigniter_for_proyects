@@ -3,12 +3,14 @@
 <head>
 	<meta charset="utf-8">
 	<title><?= $titulo ?></title>
-	<link rel="shortcut icon" href="<?= base_url()?>imagenes/favicon.ico" />
-	<link rel="stylesheet" type="text/css" href="<?= base_url()?>css/estilo.css">
+	<link rel="shortcut icon" href="imagenes/favicon.ico" />
+	<meta name="viewport" content="width=device-width"/>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css" />
+</head>
 <body>
-	<header id="header">
+<header id="header">
 	<nav id="nav">
-		<ul>
+		<ul id="menu">
 			<li><a href="<?= base_url()?>">Home</a></li>
 			<li><a href="#">Categorias</a></li>
 			<li><a href="#">Destacados</a></li>
@@ -19,5 +21,19 @@
 			<input type="submit" value="Buscar" />
 		</form>
 	</nav>
-	<h1>Nombre de la compañia</h1>
+
+	<a href="<?= base_url() ?>"><img src="imagenes/logo.png"></a>
+	<section id="carrucel">
+		<a href="#" id="anterior">&laquo;</a>
+		<div id="marco">
+			<ul>
+				<li class="uno">1</li>
+				<li class="dos">2</li>
+				<li class="tres">3</li>
+				<li class="cuatro">4</li>
+				<li class="cinco">5</li>
+			</ul>
+		</div>
+		<a href="#" id="siguiente">&raquo;</a>
+	</section>
 </header>

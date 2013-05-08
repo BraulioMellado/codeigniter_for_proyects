@@ -4,7 +4,7 @@
 |Para poder usar url relativas se debe de tener en cuenta
 /esta configuracion
 */
-$config['base_url']	= 'http://localhost/codeigniter_by_proyects';
+$config['base_url']	= 'http://localhost/codeigniter_for_proyects/';
 
 /*
 |--------------------------------------------------------------------------

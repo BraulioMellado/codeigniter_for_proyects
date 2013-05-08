@@ -1,19 +1,14 @@
 
-<article id="article">
-
+<section id="section">
 <?php 	foreach ($articulo as $campo) {	?>
 
-	<section class="section">
-	
-	<h2><a href="ver/<?= $campo->titulo_url; ?>"><?= $campo->titulo ?></a></h2>
-
-	<p class="fech"><?= mdate("%d/%m/%Y",$campo->fech_up) ?></p>
-	
+	<article class="article">
+	<h2><a href="ver/<?= $campo->titulo_url; ?>"><?= $campo->titulo ?></a>
+	<span class="fech"> <?= mdate("%d/%m/%Y",$campo->fech_up) ?></span></h2>
 	<p><?= $campo->publi ?></p>
-	
+	<p><a href="ver/<?= $campo->titulo_url; ?>">Seguir leyendo</a></p>
 	<p><?= $campo->tags ?></p>
-	
-	</section>
+	</acticle>
 <?php } ?>
 
-</article>
+</section>
