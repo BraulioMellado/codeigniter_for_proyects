@@ -62,7 +62,7 @@ La usamos.
 
 	use prueba;
 
-y crearemos la tabla respectiva.
+y crearemos la tabla para las publicaciones.
 
 	create table publicacion (
 	id int(10) not null auto_increment,
@@ -71,7 +71,15 @@ y crearemos la tabla respectiva.
 	fech_up int(10) not null,
 	tags varchar(40) not null,
 	titulo_url varchar(100) not null,
-	primary key (id)
-	);
+	primary key (id));
+
+Ahora creamos para los usuarios
+
+	create table user(
+		iduser int(10) not null auto_increment, 
+		name varchar(15) not null, 
+		pwd varchar(32) not null, 
+		mail varchar(25) not null, 
+		primary key(iduser));
 
 Ahora que ya tenemos lo básico podemos usar la base de datos de las vistas subir y ver archivos.

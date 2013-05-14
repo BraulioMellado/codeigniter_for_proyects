@@ -5,7 +5,7 @@
 	<title><?= $titulo ?></title>
 	<link rel="shortcut icon" href="imagenes/favicon.ico" />
 	<meta name="viewport" content="width=device-width"/>
-	<link rel="stylesheet" type="text/css" href="css/estilo.css" />
+	<link rel="stylesheet" type="text/css" href="<?= base_url()?>css/estilo.css" />
 </head>
 <body>
 <header id="header">

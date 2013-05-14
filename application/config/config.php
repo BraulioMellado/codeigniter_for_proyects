@@ -205,16 +205,12 @@ $config['log_date_format'] = 'Y-m-d H:i:s';
 */
 $config['cache_path'] = '';
 
+
+
 /*
-|--------------------------------------------------------------------------
-| Encryption Key
-|--------------------------------------------------------------------------
-|
-| If you use the Encryption class or the Session class you
-| MUST set an encryption key.  See the user guide for info.
-|
+|Clave de encriptacion
 */
-$config['encryption_key'] = '';
+$config['encryption_key'] = '8dd99c63c4d62f192784322df6fb9c7e';
 
 /*
 |--------------------------------------------------------------------------

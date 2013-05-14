@@ -69,4 +69,8 @@
 		{
 			return $this->db->delete('publicacion',array('id',$id));
 		}
+		public function registrar_usuario($usuario)
+		{
+			return $this->db->insert('user',$usuario);
+		}
 	}
